@@ -1,0 +1,59 @@
+# ============================
+# Terraform
+# ============================
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Local environment variables
+*.tfvars
+*.tfvars.json
+
+# Sensitive files (never commit)
+secret.auto.tfvars
+*.pem
+*.key
+
+# ============================
+# Kubernetes
+# ============================
+# Local Kubernetes config files
+kubeconfig
+kubeconfig-*
+*.kube
+
+# Helm charts build artifacts
+charts/*.tgz
+
+# ============================
+# IDE / Editor files
+# ============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ============================
+# System files
+# ============================
+.DS_Store
+Thumbs.db
+
+# ============================
+# Python (if used for tooling)
+# ============================
+__pycache__/
+*.pyc
+
+# ============================
+# Node.js (CI/CD scripts, utilities)
+# ============================
+node_modules/
+npm-debug.log
+yarn-error.log
