@@ -2,13 +2,13 @@
 
 This repository contains the hands-on work for **Kubernetes Part 2**,
 focusing on advanced Kubernetes concepts deployed on a custom-built
-**Amazon EKS cluster**.\
+**Amazon EKS cluster**.
 The activity includes:
 
--   Namespace creation\
--   ConfigMaps & Secrets\
--   Deployments\
--   LoadBalancer, ClusterIP, and NodePort Services\
+-   Namespace creation
+-   ConfigMaps & Secrets
+-   Deployments
+-   LoadBalancer, ClusterIP, and NodePort Services
 -   Testing and verification
 
 ------------------------------------------------------------------------
@@ -234,11 +234,11 @@ kubectl get svc -n <your-namespace>
 
 ## ✔️ **7. Summary of Learnings**
 
--   How ConfigMaps and Secrets inject data into pods\
--   How Deployments manage replica sets and ensure application uptime\
+-   How ConfigMaps and Secrets inject data into pods
+-   How Deployments manage replica sets and ensure application uptime
 -   Differences between **ClusterIP**, **NodePort**, and
-    **LoadBalancer**\
--   How Kubernetes exposes internal vs external traffic\
+    **LoadBalancer**
+-   How Kubernetes exposes internal vs external traffic
 -   How to operate and test applications deployed onto EKS
 
 ------------------------------------------------------------------------
